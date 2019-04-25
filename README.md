@@ -1,4 +1,6 @@
 # FileSharedPreferences
+<a href="https://jitpack.io/#chengxuncc/fileprefs"> <img src="https://jitpack.io/v/chengxuncc/fileprefs/month.svg" /></a>
+<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/github/license/chengxuncc/fileprefs.svg"/></a>
 A file based SharedPreferences library for android, which working great on Android SDK>=24 (Android 7.0 Nougat).  
 
 # Usage
