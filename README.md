@@ -14,11 +14,11 @@ allprojects {
 Add the dependency:
 ```
 dependencies {
-    implementation 'com.github.chengxuncc:fileprefs:<latest-version>'
+    implementation 'com.github.chengxuncc:fileprefs:1.0'
 }
 ```
 
-Set app world readable that provide preferences:
+Set app sharedPreferences file to be world readable:
 ```java
 SharedPreferences sharedpreferences = getSharedPreferences(YourPreferencesFileName, MODE_PRIVATE);
 FileSharedPreferences.makeWorldReadable(YourPackageName,YourPreferencesFileName);
