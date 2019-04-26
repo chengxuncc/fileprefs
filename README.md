@@ -23,7 +23,7 @@ dependencies {
 Set app sharedPreferences file to be world readable:
 ```java
 SharedPreferences sharedpreferences = getSharedPreferences(YourPreferencesFileName, MODE_PRIVATE);
-// you should use makeWorldReadable every time after using commit() or apply()
+// you should use makeWorldReadable every time after using commit() or apply(), however apply() will delay, it may be better to use commit()
 FileSharedPreferences.makeWorldReadable(YourPackageName,YourPreferencesFileName);
 ```
 
